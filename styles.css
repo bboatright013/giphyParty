@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: #292E2D;
+}
+
+#main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+#searchForm {
+    display: flex;
+    flex-flow: row;
+}
+
+input {
+    width: 350px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#heading {
+    font-size: 3rem;
+    color: ivory;
+}
+
+#searchGify, #remove {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#searchGify {
+    background-color: greenyellow;
+}
+
+#remove {
+    background-color: indianred;
+}
+#gifZone {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+#gifZone img {
+    margin: 10px 20px;
+    max-width: 20%;
+}
